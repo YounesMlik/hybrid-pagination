@@ -1,0 +1,34 @@
+{
+    "name": "younes_mlik/hybrid-pagination",
+    "description": "Hybrid pagination for Laravel.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Younes Mlik",
+            "email": "younesmlik88@gmail.com"
+        }
+    ],
+    "keywords": [
+        "Laravel",
+        "Pagination"
+    ],
+    "autoload": {
+        "psr-4": {
+            "YounesMlik\\HybridPagination\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/contracts": "^11.41",
+        "illuminate/pagination": "^11.41",
+        "illuminate/support": "^11.41",
+        "illuminate/database": "^11.41",
+        "illuminate/http": "^11.41"
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev"
+}

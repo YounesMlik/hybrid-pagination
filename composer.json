@@ -10,7 +10,10 @@
     ],
     "keywords": [
         "Laravel",
-        "Pagination"
+        "Pagination",
+        "Eloquent",
+        "illuminate",
+        "database"
     ],
     "autoload": {
         "psr-4": {

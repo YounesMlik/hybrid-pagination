@@ -1,13 +1,8 @@
 {
     "name": "younes_mlik/hybrid-pagination",
-    "description": "Hybrid pagination for Laravel.",
     "type": "library",
-    "authors": [
-        {
-            "name": "Younes Mlik",
-            "email": "younesmlik88@gmail.com"
-        }
-    ],
+    "description": "Hybrid pagination for Laravel.",
+    "homepage": "https://github.com/YounesMlik/hybrid-pagination",
     "keywords": [
         "Laravel",
         "Pagination",
@@ -15,11 +10,13 @@
         "illuminate",
         "database"
     ],
-    "autoload": {
-        "psr-4": {
-            "YounesMlik\\HybridPagination\\": "src/"
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Younes Mlik",
+            "email": "younesmlik88@gmail.com"
         }
-    },
+    ],
     "require": {
         "php": "^8.2",
         "illuminate/contracts": "^11.41",
@@ -27,6 +24,11 @@
         "illuminate/support": "^11.41",
         "illuminate/database": "^11.41",
         "illuminate/http": "^11.41"
+    },
+    "autoload": {
+        "psr-4": {
+            "YounesMlik\\HybridPagination\\": "src/"
+        }
     },
     "config": {
         "sort-packages": true,
